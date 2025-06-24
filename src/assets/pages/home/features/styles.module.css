@@ -1,0 +1,30 @@
+.featuresContainer {
+  color: #fff;
+  padding: 40px 0;
+}
+
+.featureCard {
+  background-color: #2d2d2d;
+  border: none;
+  color: #fff;
+}
+
+.featureIcon {
+  width: 100px;
+  height: auto;
+}
+.smallIcon {
+  width: 80px;
+  height: auto;
+}
+.title {
+  color: #ffffff;
+  font-size: 29px;
+  font-weight: 600;
+}
+.text {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 1rem;
+}

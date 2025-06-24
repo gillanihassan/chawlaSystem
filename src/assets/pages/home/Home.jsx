@@ -3,6 +3,7 @@ import TopSection from "./topSection/TopSection";
 import CustomNavbar from "../../layout/customNavbar/CustomNavbar";
 import StatsSection from "./statsSection/StatsSection";
 import Simplifying from "./simplifying/Simplifying";
+import Features from "./features/Features";
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
       <TopSection />
       <StatsSection />
       <Simplifying />
+      <Features />
     </div>
   );
 }
