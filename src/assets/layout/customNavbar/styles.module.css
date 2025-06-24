@@ -1,0 +1,6 @@
+.links {
+  color: #ffffff;
+}
+.dropdownWhiteArrow::after {
+  color: white !important;
+}

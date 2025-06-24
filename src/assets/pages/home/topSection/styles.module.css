@@ -1,0 +1,28 @@
+.mainDiv {
+  /* border: 2px solid red; */
+  margin-top: 2.5rem;
+}
+.customImage {
+  width: 100%;
+  max-width: 900px;
+}
+.topHeading {
+  color: #ffffff;
+  font-size: 64px;
+  line-height: 4rem;
+  font-weight: 700;
+}
+.topPara {
+  color: #ffffff;
+  font-size: 30px;
+  line-height: 2.5rem;
+  font-weight: 500;
+}
+.btnOne {
+  background-color: rgb(4, 50, 255);
+  border: none;
+}
+.btnTwo {
+  background-color: rgb(243, 179, 1);
+  border: none;
+}
