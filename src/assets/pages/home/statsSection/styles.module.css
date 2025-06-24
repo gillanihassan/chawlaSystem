@@ -1,0 +1,19 @@
+.mainDiv {
+  /* border: 2px solid red; */
+  margin-top: 3rem;
+  color: #ffffff;
+}
+.stars {
+  color: #ff9100;
+}
+.topHeading {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 500;
+}
+.para {
+  color: #ffffff;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 1.4rem;
+}
