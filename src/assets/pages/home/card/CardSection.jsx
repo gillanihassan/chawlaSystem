@@ -39,7 +39,7 @@ const featureData = [
 
 const CardSection = () => {
   return (
-    <div fluid className={`container-xxl ${styles.featuresContainer}`}>
+    <div fluid className={`container-xxl p-3 ${styles.featuresContainer}`}>
       <Button className="mb-3">How We Do</Button>
       <h3 className={`${styles.topHeading}`}>Solutions</h3>
       <Row>

@@ -6,6 +6,7 @@ import Simplifying from "./simplifying/Simplifying";
 import Features from "./features/Features";
 import Card from "./card/CardSection";
 import Success from "./success/Success";
+import Industry from "./industry/Industry";
 
 function Home() {
   return (
@@ -16,6 +17,7 @@ function Home() {
       <Simplifying />
       <Features />
       <Card />
+      <Industry />
       <Success />
     </div>
   );

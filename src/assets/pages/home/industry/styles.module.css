@@ -1,0 +1,21 @@
+.mainDiv {
+  /* border: 2px solid red; */
+  background-color: #000000;
+}
+.btn {
+  background-color: antiquewhite;
+  color: #000000;
+  font-size: 13px;
+  font-weight: 500;
+}
+.mainHeading {
+  color: #ffffff;
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 3.5rem;
+}
+.spanOne {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 700;
+}

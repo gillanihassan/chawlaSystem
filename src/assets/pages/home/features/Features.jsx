@@ -25,7 +25,7 @@ const featureData = [
 
 const Features = () => {
   return (
-    <div fluid className={`container-xxl ${styles.featuresContainer}`}>
+    <div fluid className={`container-xxl p-3 ${styles.featuresContainer}`}>
       <Row>
         {featureData.map((feature, index) => (
           <Col
