@@ -5,6 +5,7 @@ import StatsSection from "./statsSection/StatsSection";
 import Simplifying from "./simplifying/Simplifying";
 import Features from "./features/Features";
 import Card from "./card/CardSection";
+import Success from "./success/Success";
 
 function Home() {
   return (
@@ -15,6 +16,7 @@ function Home() {
       <Simplifying />
       <Features />
       <Card />
+      <Success />
     </div>
   );
 }
