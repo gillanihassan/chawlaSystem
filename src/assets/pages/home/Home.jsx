@@ -8,6 +8,8 @@ import Card from "./card/CardSection";
 import Success from "./success/Success";
 import Industry from "./industry/Industry";
 import Testimonial from "./testimonial/Testimonial";
+import FooterLogo from "./footerLogo/FootersLogo";
+import FooterSection from "./footerSection/FooterSection";
 
 function Home() {
   return (
@@ -21,6 +23,8 @@ function Home() {
       <Industry />
       <Success />
       <Testimonial />
+      <FooterLogo />
+      <FooterSection />
     </div>
   );
 }

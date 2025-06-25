@@ -1,0 +1,31 @@
+.mainContainer {
+  /* border: 2px solid red; */
+}
+.firstPara {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.3rem;
+}
+.stars {
+  color: goldenrod;
+}
+.para {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.3rem;
+}
+.bottomPara {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.3rem;
+}
+.bottomParaLink {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.3rem;
+  text-decoration: none;
+}
