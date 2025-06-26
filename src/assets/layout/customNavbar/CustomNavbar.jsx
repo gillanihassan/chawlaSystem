@@ -5,18 +5,19 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import LogoImage from "../../../assets/layout/images/logo-image.png";
 import styles from "./styles.module.css";
+import { Link } from "react-router-dom";
 
 function CustomNavbar() {
   return (
     <Navbar expand="lg" style={{ backgroundColor: "#000000" }}>
       <Container>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand as={Link} to="/">
           <Image src={LogoImage} />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mx-auto gap-3">
-            <Nav.Link href="#home" className={`${styles.links}`}>
+            <Nav.Link as={Link} to="/about" className={`${styles.links}`}>
               About
             </Nav.Link>
             <NavDropdown

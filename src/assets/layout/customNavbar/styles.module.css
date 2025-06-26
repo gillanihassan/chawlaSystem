@@ -1,6 +1,12 @@
 .links {
   color: #ffffff;
 }
+.links:hover {
+  color: #1d9ae2;
+}
+.links:focus {
+  color: #ffffff;
+}
 .dropdownWhiteArrow::after {
   color: white !important;
 }
