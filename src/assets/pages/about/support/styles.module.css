@@ -1,0 +1,23 @@
+.mainDiv {
+  /* border: 2px solid red; */
+  margin-top: 7rem;
+}
+.btn {
+  background-color: #ffffff;
+  color: black;
+  border: none;
+}
+.btn:hover {
+  background-color: antiquewhite;
+  color: black;
+}
+.para {
+  color: #ffffff;
+  font-size: 21px;
+  font-weight: 400;
+}
+.link {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+}
