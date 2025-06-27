@@ -1,0 +1,22 @@
+.mainDiv {
+  background-color: #003087;
+  padding-top: 10rem;
+  padding-bottom: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 18rem;
+}
+.btn {
+  background-color: rgb(14, 11, 127);
+  color: #ffffff;
+  border: none;
+}
+.topHeading {
+  color: #ffffff;
+  font-size: 64px;
+  font-weight: 700;
+}
+.btnTwo {
+  background-color: rgb(243, 151, 22);
+  color: #ffffff;
+  border: none;
+}
