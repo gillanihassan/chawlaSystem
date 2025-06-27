@@ -66,7 +66,7 @@ function CustomNavbar() {
                 Separated link
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#home" className={`${styles.links}`}>
+            <Nav.Link as={Link} to="case-study" className={`${styles.links}`}>
               Case Studies
             </Nav.Link>
             <NavDropdown
