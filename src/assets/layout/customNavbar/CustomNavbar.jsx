@@ -44,8 +44,17 @@ function CustomNavbar() {
               </NavDropdown.Item>
             </NavDropdown>
             <NavDropdown
-              title={<span className={`${styles.links}`}>Solutions</span>}
+              title={
+                <Link
+                  to="/solutions"
+                  className={`${styles.links}`}
+                  style={{ textDecoration: "none" }}
+                >
+                  Solutions
+                </Link>
+              }
               id="basic-nav-dropdown"
+              className={`${styles.links}`}
             >
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
