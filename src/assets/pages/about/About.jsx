@@ -6,6 +6,8 @@ import Competition from "./competition/Competition";
 import FuelingMission from "./fuelingMission/FuelingMission";
 import Linkdin from "./linkdin/Linkdin";
 import TeamSupport from "./teamSupport/TeamSupport";
+import FootersLogo from "../home/footerLogo/FootersLogo";
+import FooterSection from "../home/footerSection/FooterSection";
 
 function About() {
   return (
@@ -17,6 +19,8 @@ function About() {
       <FuelingMission />
       <Linkdin />
       <TeamSupport />
+      <FootersLogo />
+      <FooterSection />
     </div>
   );
 }
