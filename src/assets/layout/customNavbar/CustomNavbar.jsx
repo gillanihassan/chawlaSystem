@@ -33,8 +33,8 @@ function CustomNavbar() {
               id="basic-nav-dropdown"
               className={`${styles.links}`}
             >
-              <NavDropdown.Item as={Link} to="/services/web-development">
-                Web Development
+              <NavDropdown.Item as={Link} to="/services-design">
+                UI/UX Design
               </NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/services/app-development">
                 App Development

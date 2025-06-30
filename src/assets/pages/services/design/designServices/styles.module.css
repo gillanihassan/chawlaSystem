@@ -1,0 +1,49 @@
+.mainDiv {
+  background-color: #003087;
+  padding-top: 10rem;
+  padding-bottom: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.btn {
+  background-color: rgb(14, 11, 127);
+  color: #ffffff;
+  border: none;
+}
+.topHeading {
+  color: #ffffff;
+  font-size: 58px;
+  font-weight: 700;
+  width: 100%;
+  max-width: 900px;
+  /* border: 2px solid red; */
+  line-height: 3.4rem;
+}
+.topPara {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 400;
+  width: 100%;
+  max-width: 800px;
+  /* border: 2px solid red; */
+  /* line-height: 3.4rem; */
+}
+.btnTwo {
+  background-color: rgb(243, 151, 22);
+  color: #ffffff;
+  border: none;
+}
+@media (max-width: 500px) {
+  .mainDiv {
+    background-color: #003087;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  .topHeading {
+    font-size: 40px;
+    line-height: 2.4rem;
+  }
+  .topPara {
+    font-size: 22px;
+  }
+}
