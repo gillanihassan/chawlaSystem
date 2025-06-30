@@ -1,0 +1,37 @@
+.mainDiv {
+  /* border: 2px solid red; */
+}
+.topHeading {
+  color: #ffffff;
+  font-size: 34px;
+  font-weight: 500;
+}
+.list {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+}
+.listSpan {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+}
+.customImage {
+  width: 100%;
+  max-width: 550px;
+}
+.headingTwo {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 500;
+}
+.headingThree {
+  color: #ffffff;
+  font-size: 23px;
+  font-weight: 500;
+}
+.para {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+}
