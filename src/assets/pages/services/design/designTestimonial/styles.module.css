@@ -1,0 +1,19 @@
+.customImage {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+.cardText {
+  font-size: 32px;
+  font-weight: 600;
+  color: #ffffff;
+  line-height: 2.5rem;
+}
+.btnOne {
+  background-color: #ffffff;
+  border-radius: 50%;
+  color: black;
+}
+.stars {
+  color: goldenrod;
+}
