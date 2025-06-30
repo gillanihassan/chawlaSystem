@@ -3,6 +3,7 @@ import CustomNavbar from "../../layout/customNavbar/CustomNavbar";
 import TopSection from "./topSection/TopSection";
 import FootersLogo from "../home/footerLogo/FootersLogo";
 import FooterSection from "../home/footerSection/FooterSection";
+import DigitalDesign from "./design/digitalDesign/DigitalDesign";
 
 function Services() {
   return (
@@ -11,6 +12,7 @@ function Services() {
       <TopSection />
       <FootersLogo />
       <FooterSection />
+      <DigitalDesign />
     </div>
   );
 }

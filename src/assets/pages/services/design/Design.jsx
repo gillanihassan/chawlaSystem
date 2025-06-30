@@ -3,6 +3,7 @@ import CustomNavbar from "../../../layout/customNavbar/CustomNavbar";
 import DesignServices from "./designServices/DesignServices";
 import UiImpact from "./UiImpact/UiImpact";
 import DesignFlow from "./designFlow/DesignFlow";
+import DigitalDesign from "./digitalDesign/DigitalDesign";
 
 function Design() {
   return (
@@ -11,6 +12,7 @@ function Design() {
       <DesignServices />
       <UiImpact />
       <DesignFlow />
+      <DigitalDesign />
     </div>
   );
 }
