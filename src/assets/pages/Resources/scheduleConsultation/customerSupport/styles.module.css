@@ -1,0 +1,28 @@
+.mainDiv {
+  /* border: 2px solid red; */
+}
+.topHeading {
+  color: #ffffff;
+  font-size: 64px;
+  font-weight: 600;
+}
+.para {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.6rem;
+}
+.customImage {
+  width: 100%;
+  max-width: 1270px;
+  border-radius: 5px;
+}
+.btn {
+  background-color: rgb(24, 161, 212);
+  font-weight: 600;
+}
+@media (max-width: 480px) {
+  .topHeading {
+    font-size: 43px;
+  }
+}
