@@ -1,0 +1,28 @@
+.featuresContainer {
+  color: #fff;
+  padding: 40px 0;
+  margin-top: 4rem;
+}
+.featureCard {
+  background-color: #171a1e;
+  border: none;
+  color: #fff;
+  padding: 5rem 2.5rem;
+}
+.title {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 600;
+}
+.text {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.3rem;
+}
+.featureCardTwo {
+  background-color: #171a1e;
+  border: none;
+  color: #fff;
+  padding: 8rem 2.5rem;
+}
