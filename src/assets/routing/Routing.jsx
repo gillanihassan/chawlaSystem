@@ -6,7 +6,7 @@ import Solutions from "../pages/solutions/Solutions";
 import CaseStudy from "../pages/caseStudy/CaseStudy";
 import ScheduleConsultation from "../pages/Resources/scheduleConsultation/ScheduleConsultation";
 import Design from "../pages/services/design/Design";
-import BusinessIntelligence from "../pages/solutions/businessIntelligence/businessIntelligence";
+import BusinessIntelligence from "../pages/solutions/businessIntelligence/BusinessIntelligence";
 
 function Routing() {
   return (
