@@ -6,6 +6,7 @@ import Solutions from "../pages/solutions/Solutions";
 import CaseStudy from "../pages/caseStudy/CaseStudy";
 import ScheduleConsultation from "../pages/Resources/scheduleConsultation/ScheduleConsultation";
 import Design from "../pages/services/design/Design";
+import BusinessIntelligence from "../pages/solutions/businessIntelligence/businessIntelligence";
 
 function Routing() {
   return (
@@ -16,6 +17,10 @@ function Routing() {
         <Route path="/services" element={<Services />} />
         <Route path="/services-design" element={<Design />} />
         <Route path="/solutions" element={<Solutions />} />
+        <Route
+          path="/solutions-business-intelligence"
+          element={<BusinessIntelligence />}
+        />
         <Route path="/case-study" element={<CaseStudy />} />
         <Route path="/consultation" element={<ScheduleConsultation />} />
       </Routes>

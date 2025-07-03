@@ -1,0 +1,57 @@
+.heroSection {
+  background-size: cover;
+  background-position: center;
+  padding: 80px 0;
+  color: #ffffff;
+  background-image: url("/public//images/hero-image.png");
+}
+.rightCol {
+  background-color: #111111;
+  padding: 2rem 1rem;
+  border-radius: 12px;
+}
+.formControl {
+  background-color: #333333;
+  padding: 0.6rem;
+  border: 1px solid #69727d;
+}
+.formControl::placeholder {
+  color: #f5f5f5;
+}
+.formControl {
+  color: #f5f5f5;
+  background-color: #333333;
+}
+.formControl option {
+  color: #f5f5f5;
+  background-color: #333333;
+}
+.btn {
+  background-color: #18a1d4;
+  border: none;
+  padding: 0.7rem;
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 600;
+}
+.btn:hover {
+  background-color: #f39716;
+}
+.topHeading {
+  font-size: 64px;
+  font-weight: 700;
+  color: #ffffff;
+  /* border: 2px solid red; */
+}
+.para {
+  color: #fff;
+  font-size: 19px;
+  font-weight: 500;
+  /* border: 2px solid red; */
+  line-height: 1.6rem;
+}
+.btnContent {
+  background-color: #18a1d4;
+  border: none;
+  padding: 0.8rem;
+}

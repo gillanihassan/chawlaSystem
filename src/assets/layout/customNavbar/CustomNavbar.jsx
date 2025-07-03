@@ -56,7 +56,9 @@ function CustomNavbar() {
               id="basic-nav-dropdown"
               className={`${styles.links}`}
             >
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/solutions-business-intelligence">
+                Business Intelligence
+              </NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 Another action
               </NavDropdown.Item>
