@@ -1,0 +1,38 @@
+.mainContainer {
+  margin-top: 12rem;
+}
+.topHeading {
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: 700;
+}
+.activeCard {
+  background-color: black;
+  border-bottom: 1px solid #ffffff;
+}
+
+.inactiveCard {
+  background-color: black;
+  border-bottom: 1px solid #ffffff;
+}
+.toggleIcon {
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+.title {
+  color: #f1f4f3;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 29px;
+  font-family: "Yeseva One";
+}
+.body {
+  color: #f1f4f3;
+  font-family: "Lato";
+  font-weight: 400;
+  font-style: italic;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0px;
+}
