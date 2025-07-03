@@ -6,6 +6,9 @@ import BusinessCard from "./businessCard/BusinessCard";
 import ContentBlock from "./contentBlock/ContentBlock";
 import FeaturesList from "./featuresList/FeaturesList";
 import ListTwo from "./listTwo/ListTwo";
+import Testimonial from "../../home/testimonial/Testimonial";
+import FootersLogo from "../../home/footerLogo/FootersLogo";
+import FooterSection from "../../home/footerSection/FooterSection";
 
 function BusinessIntelligence() {
   return (
@@ -17,6 +20,9 @@ function BusinessIntelligence() {
       <ContentBlock />
       <FeaturesList />
       <ListTwo />
+      <Testimonial />
+      <FootersLogo />
+      <FooterSection />
     </div>
   );
 }
