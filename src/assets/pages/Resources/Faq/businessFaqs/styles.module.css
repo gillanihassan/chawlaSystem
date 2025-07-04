@@ -1,0 +1,47 @@
+.mainContainer {
+  margin-top: 2rem;
+  /* border: 2px solid red; */
+  margin-bottom: 9rem;
+}
+.topHeading {
+  color: #ffffff;
+  font-size: 56px;
+  font-weight: 700;
+  width: 100%;
+  max-width: 720px;
+  line-height: 3.6rem;
+}
+.activeCard {
+  background-color: black;
+  /* border-bottom: 1px solid #ffffff; */
+}
+
+.inactiveCard {
+  background-color: black;
+  /* border-bottom: 1px solid #ffffff; */
+}
+.toggleIcon {
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+.title {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 29px;
+  font-family: "Yeseva One";
+}
+.body {
+  color: #f5f5f5;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 30px;
+  letter-spacing: 0px;
+}
+@media (max-width: 500px) {
+  .topHeading {
+    font-size: 36px;
+    line-height: 2.5rem;
+  }
+}

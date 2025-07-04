@@ -7,6 +7,7 @@ import CaseStudy from "../pages/caseStudy/CaseStudy";
 import ScheduleConsultation from "../pages/Resources/scheduleConsultation/ScheduleConsultation";
 import Design from "../pages/services/design/Design";
 import BusinessIntelligence from "../pages/solutions/businessIntelligence/BusinessIntelligence";
+import Faq from "../pages/Resources/Faq/Faq";
 
 function Routing() {
   return (
@@ -23,6 +24,7 @@ function Routing() {
         />
         <Route path="/case-study" element={<CaseStudy />} />
         <Route path="/consultation" element={<ScheduleConsultation />} />
+        <Route path="/faq" element={<Faq />} />
       </Routes>
     </Router>
   );

@@ -68,14 +68,16 @@ function CustomNavbar() {
                 Separated link
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link as={Link} to="case-study" className={`${styles.links}`}>
+            <Nav.Link as={Link} to="/case-study" className={`${styles.links}`}>
               Case Studies
             </Nav.Link>
             <NavDropdown
               title={<span className={`${styles.links}`}>Resources</span>}
               id="basic-nav-dropdown"
             >
-              <NavDropdown.Item href="#action/3.1">FAQ</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/faq">
+                FAQ
+              </NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/consultation">
                 Schedule a Consultation
               </NavDropdown.Item>
